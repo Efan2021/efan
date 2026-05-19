@@ -55,6 +55,8 @@ redirect_from:
 
 I am currently pursuing my Master’s degree in Electronic Information at the University of Science and Technology of China (USTC). I received my Bachelor’s degree in Software Engineering from Wuhan Institute of Technology in 2025, and in the same year, I was recommended for admission to USTC for graduate study. My research interests include spatial intelligence, 3D vision, large language models (LLMs), and multimodal large language models (MLLMs).
 
+<span class='anchor' id='news'></span>
+
 # 🔥 News
 - *2026.04*: &nbsp;🎉🎉 My **first-author** paper has been accepted to the **43rd International Conference on Machine Learning（ICML 2026）**.
 - *2026.03*: &nbsp;🎉🎉 One paper has been accepted to the **64th Annual Meeting of the Association for Computational Linguistics（ACL 2026）**.
@@ -62,9 +64,13 @@ I am currently pursuing my Master’s degree in Electronic Information at the Un
 <!-- - *2025.09*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 
+<span class='anchor' id='experience'></span>
+
 # 🎖 Experience
 - *2025.5-2025.8* I served as a Large Language Model Algorithm Intern at **Baidu**. <img src="images/Baidu.png" alt="Baidu logo" width="90" style="vertical-align: text-bottom;">
 - *2026.2-2026.5* I served as a Large Language Model Algorithm Intern at **XiaoMi**. <img src="images/xiaomi.png" alt="XiaoMi logo" width="90" style="vertical-align: text-bottom;"> 
+
+<span class='anchor' id='publications'></span>
 
 # 📝 Publications 
 
@@ -113,6 +119,8 @@ Kailin Jiang, Ning Jiang, Yuntao Du, Yuchen Ren, Yuchen Li, **Yifan Gao**, Jinhe
 </div>
 
 
+
+<span class='anchor' id='educations'></span>
 
 # 📖 Educations
 - *2025.09 - Present*, M.Eng. in Electronic Information, University of Science and Technology of China (USTC).  
