@@ -15,44 +15,112 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+<style>
+.badge {
+  background: #e53935 !important;
+}
+.paper-title {
+  color: #1c5fdb;
+  font-size: 1.2em;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.35rem;
+}
+.paper-link-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  padding: 0.3rem 0;
+  border-radius: 999px;
+  background: #e3e6eb;
+  color: #1b1b1b !important;
+  font-size: 0.85em;
+  text-decoration: none;
+  margin: 0;
+}
+.paper-link-btn:hover {
+  background: #cfd4dc;
+}
+.paper-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0.35rem 0 0.8rem;
+  justify-content: flex-start;
+}
+</style>
+
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
-
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
-
+I am currently pursuing my Master’s degree in Electronic Information at the University of Science and Technology of China (USTC). I received my Bachelor’s degree in Software Engineering from Wuhan Institute of Technology in 2025, and in the same year, I was recommended for admission to USTC for graduate study. My research interests include spatial intelligence, 3D vision, large language models (LLMs), and multimodal large language models (MLLMs).
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.04*: &nbsp;🎉🎉 My **first-author** paper has been accepted to the **43rd International Conference on Machine Learning（ICML 2026）**.
+- *2026.03*: &nbsp;🎉🎉 One paper has been accepted to the **64th Annual Meeting of the Association for Computational Linguistics（ACL 2026）**.
+- *2026.03*: &nbsp;🎉🎉 One paper has been accepted by **Information Fusion**, a leading journal with an impact factor of **17.35**.
+<!-- - *2025.09*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+
+
+# 🎖 Experience
+- *2025.5-2025.8* I served as a Large Language Model Algorithm Intern at **Baidu**. <img src="images/Baidu.png" alt="Baidu logo" width="90" style="vertical-align: text-bottom;">
+- *2026.2-2026.5* I served as a Large Language Model Algorithm Intern at **XiaoMi**. <img src="images/xiaomi.png" alt="XiaoMi logo" width="90" style="vertical-align: text-bottom;"> 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="background:#e53935;">ICML 2026</div><img src='images/decompose.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+<span class="paper-title">DecomPose: Disentangling Cross-Category Optimization Contention for Category-Level 6D Object Pose Estimation</span>
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Yifan Gao**,  Lu Zou, Zhangjin Huang, Guoping Wang
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<div class="paper-links">
+  <a class="paper-link-btn" href="https://arxiv.org/pdf/2605.15728" target="_blank" rel="noopener">ArXiv Page</a>
+  <a class="paper-link-btn" href="https://efan2021.github.io/DecomPose/" target="_blank" rel="noopener">Paper Page</a>
+</div>
+
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="background:#e53935;">ACL 2026</div><img src='images/mined.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<span class="paper-title">MINED: Probing and Updating with Multimodal Time-Sensitive Knowledge for Large Multimodal Models</span>
+
+Kailin Jiang, Ning Jiang, Yuntao Du, Yuchen Ren, Yuchen Li, **Yifan Gao**, Jinhe Bi, Yunpu Ma, Bin Li, Lei Liu, Qing Li
+
+<div class="paper-links">
+  <a class="paper-link-btn" href="https://arxiv.org/pdf/2510.19457" target="_blank" rel="noopener">ArXiv Page</a>
+  <a class="paper-link-btn" href="https://mined-lmm.github.io/" target="_blank" rel="noopener">Paper Page</a>
+</div>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="background:#e53935;">Information Fusion</div><img src='images/wavepose.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="paper-title">Wavelet-guided geometric feature enhancement and multimodal fusion for category-level object pose estimation</span>
+
+ Lu Zou, **Yifan Gao**, Xinyu Li, Zhangjin Huang, Guoping Wang
+
+<div class="paper-links">
+  <a class="paper-link-btn" href="https://www.sciencedirect.com/science/article/abs/pii/S156625352600223X" target="_blank" rel="noopener">Full Paper</a>
+</div>
+
+</div>
+</div>
+
+
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.09 - Present*, M.Eng. in Electronic Information, University of Science and Technology of China (USTC).  
+- *2021.09 - 2025.06*, B.Eng. in Software Engineering, Wuhan Institute of Technology. Received the Bachelor's degree in Engineering in 2025.
 
-# 💬 Invited Talks
+<!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
